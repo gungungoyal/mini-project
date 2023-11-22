@@ -1,4 +1,4 @@
- /* Global Styles */
+  /* Global Styles */
  body {
     font-family: Arial, sans-serif;
     margin:10;
@@ -127,7 +127,20 @@ header {
 .t-shirt a:hover {
     background-color: #a48989;
 }
-
+.feedback{
+    background-color: #c05151;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+@media(max-width:768px){
+  .feedback{
+    display:none;
+  }
+}
 /* Price Filter and Sort Styles */
 #price-filter,
 #price-sort {
